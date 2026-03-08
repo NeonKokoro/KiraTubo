@@ -205,9 +205,6 @@ jobs:
       - name: Clone YTABGoodies
         run: git clone --quiet --depth=1 https://github.com/PoomSmart/YTABGoodies.git
 
-      - name: Clone LowContrastMode
-        run: git clone --quiet --depth=1 https://github.com/arichorn/LowContrastMode.git
-
       - name: Clone YTNoShorts
         run: git clone --quiet --depth=1 https://github.com/MiRO92/YTNoShorts.git
 
@@ -368,12 +365,6 @@ jobs:
           make clean package DEBUG=0 FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
           mv packages/*.deb ${{ github.workspace }}/ytabgoodies.deb
           
-      - name: Build LowContrastMode
-        run: |
-          cd LowContrastMode
-          make clean package DEBUG=0 FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
-          mv packages/*.deb ${{ github.workspace }}/lowcontrastmode.deb
-
       - name: Build YTNoShorts
         run: |
           cd YTNoShorts
