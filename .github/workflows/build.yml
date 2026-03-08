@@ -211,8 +211,14 @@ jobs:
       - name: Clone LowContrastMode
         run: git clone --quiet --depth=1 https://github.com/arichorn/LowContrastMode.git
 
-      - name: Clone LowContrastMode
-        run: git clone --quiet --depth=1 https://github.com/arichorn/LowContrastMode.git
+      - name: Clone YTNoShorts
+        run: git clone --quiet --depth=1 https://github.com/MiRO92/YTNoShorts.git
+
+      - name: Clone BigYTMiniPlayer
+        run: git clone --quiet --depth=1 https://github.com/Galactic-Dev/BigYTMiniPlayer.git
+
+      - name: Clone iSponsorBlock
+        run: git clone --quiet --depth=1 https://github.com/Galactic-Dev/iSponsorBlock.git
 
       - name: Build YouPiP
         run: |
