@@ -7,7 +7,7 @@ If you have any problems, feel free to open issues!
 - [YouMute](https://github.com/PoomSmart/YouMute) - Mute the video sounds in video overlay
 - [YouSpeed](https://github.com/PoomSmart/YouSpeed) - Change video speeds in video overlay
 - [YTABConfig](https://github.com/PoomSmart/YTABConfig) - Configures A/B settings
-- [YouSlider](https://github.com/PoomSmart/YouSlider) - Customizes video slider and scrubber
+- YouSlider (removed due to technical challenges) - Customizes video slider and scrubber
 - [YouChooseQuality](https://github.com/PoomSmart/YouChooseQuality) - Auto select the video quality from your scenario
 - [YouShare](https://github.com/Tonwalter888/YouShare) - Copy video URL faster from video overlay
 - [Gonerino](https://github.com/castdrian/Gonerino) - Filter videos/channels/keywords that you don't want them to show up on your feeds
