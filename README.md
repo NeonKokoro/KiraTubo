@@ -1,4 +1,4 @@
-# KiraTubo
+# KiraTuno
 This is a fork repo from YTLitePlusEXTRA, but with wayyyyyy more tweaks and ingredients cooked in.
 If you have any problems, feel free to open issues!
 
@@ -26,7 +26,7 @@ If you have any problems, feel free to open issues!
 > 2. On your forked repository, go to **Settings** -> **Actions**, and enable **Read and Write** permissions.
 
 <details>
-  <summary>How to build a KiraTubo IPA</summary>
+  <summary>How to build a KiraTuno IPA</summary>
   <ol>
     <li>Click on <strong>Sync fork</strong>, and if your branch is out-of-date, click on <strong>Update branch</strong>.</li>
     <li>Navigate to <strong>Actions</strong> in your forked repository and select <strong>Build and Release YTLitePlusEXTRA IPA.</strong></li>
@@ -40,7 +40,7 @@ If you have any problems, feel free to open issues!
 </details>
 
 <details>
-  <summary>How to build a KiraTubo IPA (With your own YTLite .deb file)</summary>
+  <summary>How to build a KiraTuno IPA (With your own YTLite .deb file)</summary>
   <ol>
     <li>you can't lol, I deprecated it due to issues</li>
   </ol>
