@@ -205,9 +205,6 @@ jobs:
       - name: Clone YTABGoodies
         run: git clone --quiet --depth=1 https://github.com/PoomSmart/YTABGoodies.git
 
-      - name: Clone YTMiniplayerEnabler
-        run: git clone --quiet --depth=1 https://github.com/level3tjg/YTMiniplayerEnabler.git
-
       - name: Clone LowContrastMode
         run: git clone --quiet --depth=1 https://github.com/arichorn/LowContrastMode.git
 
@@ -371,12 +368,6 @@ jobs:
           make clean package DEBUG=0 FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
           mv packages/*.deb ${{ github.workspace }}/ytabgoodies.deb
           
-      - name: Build YTMiniplayerEnabler
-        run: |
-          cd YTMiniplayerEnabler
-          make clean package DEBUG=0 FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
-          mv packages/*.deb ${{ github.workspace }}/ytminiplayerenabler.deb
-
       - name: Build LowContrastMode
         run: |
           cd LowContrastMode
