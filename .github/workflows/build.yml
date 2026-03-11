@@ -208,6 +208,15 @@ jobs:
       - name: Clone YTNoShorts
         run: git clone --quiet --depth=1 https://github.com/MiRO92/YTNoShorts.git
 
+      - name: Clone YouTubeLegacy
+        run: git clone --quiet --depth=1 https://github.com/PoomSmart/YouTubeLegacy.git
+
+      - name: Clone IAmYouTube
+        run: git clone --quiet --depth=1 https://github.com/PoomSmart/IAmYouTube.git
+
+      - name: Clone YTVideoErrorAlert
+        run: git clone --quiet --depth=1 https://github.com/PoomSmart/YTVideoErrorAlert.git
+
       - name: Build YouPiP
         run: |
           cd YouPiP
@@ -341,12 +350,6 @@ jobs:
           make clean package DEBUG=0 FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
           mv packages/*.deb ${{ github.workspace }}/youslider.deb
 
-      - name: Build YTSilentVote
-        run: |
-          cd YTSilentVote
-          make clean package DEBUG=0 FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
-          mv packages/*.deb ${{ github.workspace }}/ytnovote.deb  
-
       - name: Build YTABGoodies
         run: |
           cd YTABGoodies
@@ -357,8 +360,26 @@ jobs:
         run: |
           cd YTNoShorts
           make clean package DEBUG=0 FINALPACKAGE=1 ROOTLESS=1
-          mv packages/*.deb ${{ github.workspace }}/
+          mv packages/*.deb ${{ github.workspace }}/ytnoshorts.deb
           
+      - name: Build YouTubeLegacy
+        run: |
+          cd YouTubeLegacy
+          make clean package DEBUG=0 FINALPACKAGE=1 ROOTLESS=1
+          mv packages/*.deb ${{ github.workspace }}/ytlegacy.deb
+
+      - name: Build IAmYouTube
+        run: |
+          cd IAmYouTube
+          make clean package DEBUG=0 FINALPACKAGE=1 ROOTLESS=1
+          mv packages/*.deb ${{ github.workspace }}/iamyoutube.deb
+
+      - name: Build YTVideoErrorAlert
+        run: |
+          cd YTVideoErrorAlert
+          make clean package DEBUG=0 FINALPACKAGE=1 ROOTLESS=1
+          mv packages/*.deb ${{ github.workspace }}/ytvideoerroralert.deb
+
       - name: Inject Tweaks Into IPA
         run: |
           tweaks="OpenYouTubeSafariExtension.appex"
