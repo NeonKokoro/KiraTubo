@@ -217,6 +217,9 @@ jobs:
       - name: Clone YTVideoErrorAlert
         run: git clone --quiet --depth=1 https://github.com/PoomSmart/YTVideoErrorAlert.git
 
+      - name: Clone VolumeBoostYT
+        run: git clone --quiet --depth=1 https://github.com/VasirakCalgux/VolumeBoostYT
+
       - name: Build YouPiP
         run: |
           cd YouPiP
@@ -379,6 +382,12 @@ jobs:
           cd YTVideoErrorAlert
           make clean package DEBUG=0 FINALPACKAGE=1 ROOTLESS=1
           mv packages/*.deb ${{ github.workspace }}/ytvideoerroralert.deb
+
+      - name: Build VolumeBoostYT
+        run: |
+          cd VolumeBoostYT
+          make clean package DEBUG=0 FINALPACKAGE=1 ROOTLESS=1
+          mv packages/*.deb ${{ github.workspace }}/volumeboostyt.deb
 
       - name: Inject Tweaks Into IPA
         run: |
