@@ -49,9 +49,7 @@ If you have any problems, feel free to open issues!
 
 ## Supported YouTube version
 <ul>
-   <li><strong>Latest confirmed:</strong> 21.07.4</li>
-   <li><strong>Date tested:</strong> Feb 20, 2026</li>
+   <li><strong>Latest confirmed:</strong> 20.43.2</li>
+   <li><strong>Date tested:</strong> March 21, 2026</li>
    <li><strong>YTLite:</strong> 5.2 beta 4</li>
 </ul>
-
-Currently, I recommend YouTube version 20.50.10 or older. Since SponsorBlock is broken in YouTube version 21+.
