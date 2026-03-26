@@ -178,9 +178,6 @@ jobs:
       - name: Clone YouChooseQuality
         run: git clone --quiet --depth=1 https://github.com/PoomSmart/YouChooseQuality.git
 
-      - name: Clone YTSilentVote
-        run: git clone --quiet --depth=1 https://github.com/PoomSmart/YTSilentVote.git
-
       - name: Clone YouShare
         run: git clone --quiet --depth=1 https://github.com/Tonwalter888/YouShare.git
 
@@ -289,12 +286,6 @@ jobs:
           cd YouChooseQuality
           make clean package DEBUG=0 FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
           mv packages/*.deb ${{ github.workspace }}/youchoose.deb
-
-      - name: Build YTSilentVote
-        run: |
-          cd YTSilentVote
-          make clean package DEBUG=0 FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
-          mv packages/*.deb ${{ github.workspace }}/ytnovote.deb  
 
       - name: Build YouShare
         run: |
