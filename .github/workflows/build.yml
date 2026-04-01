@@ -10,13 +10,13 @@ on:
         
       ytlite_version:
         description: "YTLite version (You can enter the version manually from YTLite releases or leave default.)"
-        default: "5.2b5"
+        default: "5.2"
         required: true
         type: string
 
       display_name:
         description: "App name (Optional)"
-        default: "YouTube (KiraTuno)"
+        default: "YouTube"
         required: true
         type: string
 
