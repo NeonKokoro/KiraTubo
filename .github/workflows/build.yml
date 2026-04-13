@@ -217,7 +217,7 @@ jobs:
       - name: Clone VolumeBoostYT
         run: git clone --quiet --depth=1 https://github.com/VasirakCalgux/VolumeBoostYT.git
 
-              - name: Clone youtube-native-share
+      - name: Clone youtube-native-share
         run: git clone https://github.com/jkhsjdhjs/youtube-native-share.git
 
       - name: Build YouPiP
