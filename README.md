@@ -7,7 +7,6 @@ If you have any problems, feel free to open issues!
 > Otherwise, you **CAN'T** use YTLite.
 > If you can't / don't want to be a member, temporary use YTLite version 5.2b4 for now.
 
-**EDIT:** THANKS FOR 270 FORKS!🥳🎉🙏
 
 **NOTE:** Before you open a new issue, please check in [FAQs](FAQs.md) first and make sure your issue doesn't have in it.
 
