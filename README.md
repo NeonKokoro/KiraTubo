@@ -3,6 +3,13 @@
 This is a fork repo from YTLitePlusEXTRA, but with wayyyyyy more tweaks and ingredients cooked in.
 If you have any problems, feel free to open issues!
 
+> [!WARNING]
+> This project is now in grave danger thanks to Dayanch96 making the tweak paid.
+> For now on, no future versions of KiraTuno will release until I do 1 of the following:
+> 1. Build my own tweak to replace YTPlus
+> 2. Replace YTPlus with uYou
+> 3. Wait for a cracked fork of YTPlus 5.2 (what I'm hopefully aiming for)
+
 ## Main features
 - [YTLite](https://github.com/dayanch96/YTLite) - eg. Download Videos,No ads,Background Playback
 - [YouMute](https://github.com/PoomSmart/YouMute) - Mute the video sounds in video overlay
